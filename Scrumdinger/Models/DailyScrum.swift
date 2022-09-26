@@ -29,7 +29,7 @@ extension DailyScrum {
   
   struct Data {
     var title: String = ""
-    var attendees: [Attendee] = []
+    var attendees: [Attendee] = [Attendee(name: "Sarah"), Attendee(name: "Bob")]
     var lengthInMinutes: Double = 5
     var theme: Theme = .seafoam
   }
